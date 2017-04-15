@@ -1,0 +1,3 @@
+module React {
+  header "../../../react-native/React/Base/RCTBridgeModule.h"
+}

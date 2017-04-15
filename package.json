@@ -1,0 +1,8 @@
+{
+  "name": "react-native-healthkit",
+  "version": "0.0.1",
+  "keywords": "react-native",
+  "dependencies": {
+    "react-native": "^0.43.3"
+  }
+}

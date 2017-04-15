@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CB038FF1EA255AF00F9724B /* RNHealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB038F51EA255AF00F9724B /* RNHealthKit.framework */; };
+		6CB039041EA255AF00F9724B /* RNHealthKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB039031EA255AF00F9724B /* RNHealthKitTests.swift */; };
+		6CB039061EA255AF00F9724B /* RNHealthKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB038F81EA255AF00F9724B /* RNHealthKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB039121EA255F200F9724B /* RNHealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB039111EA255F200F9724B /* RNHealthKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CB039001EA255AF00F9724B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB038EC1EA255AF00F9724B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB038F41EA255AF00F9724B;
+			remoteInfo = RNHealthKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C6FF13D1EA258AC00D41378 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../../../Library/Developer/Xcode/DerivedData/OmNomNom-fqgbprfrrajajdarmufxspwpznrv/Build/Products/Debug-iphonesimulator/libReact.a"; sourceTree = "<group>"; };
+		6C6FF1431EA265A000D41378 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = React/module.map; sourceTree = "<group>"; };
+		6CB038F51EA255AF00F9724B /* RNHealthKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNHealthKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB038F81EA255AF00F9724B /* RNHealthKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNHealthKit.h; sourceTree = "<group>"; };
+		6CB038F91EA255AF00F9724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB038FE1EA255AF00F9724B /* RNHealthKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNHealthKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB039031EA255AF00F9724B /* RNHealthKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNHealthKitTests.swift; sourceTree = "<group>"; };
+		6CB039051EA255AF00F9724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB0390F1EA255D200F9724B /* RNHealthKitBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHealthKitBridge.m; sourceTree = "<group>"; };
+		6CB039111EA255F200F9724B /* RNHealthKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHealthKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB038F11EA255AF00F9724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB038FB1EA255AF00F9724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB038FF1EA255AF00F9724B /* RNHealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C6FF13C1EA258AC00D41378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6FF13D1EA258AC00D41378 /* libReact.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C6FF1451EA2694100D41378 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				6C6FF1431EA265A000D41378 /* module.map */,
+			);
+			name = React;
+			sourceTree = "<group>";
+		};
+		6CB038EB1EA255AF00F9724B = {
+			isa = PBXGroup;
+			children = (
+				6C6FF1451EA2694100D41378 /* React */,
+				6CB038F71EA255AF00F9724B /* RNHealthKit */,
+				6CB039021EA255AF00F9724B /* RNHealthKitTests */,
+				6CB038F61EA255AF00F9724B /* Products */,
+				6C6FF13C1EA258AC00D41378 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB038F61EA255AF00F9724B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB038F51EA255AF00F9724B /* RNHealthKit.framework */,
+				6CB038FE1EA255AF00F9724B /* RNHealthKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB038F71EA255AF00F9724B /* RNHealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				6CB038F81EA255AF00F9724B /* RNHealthKit.h */,
+				6CB038F91EA255AF00F9724B /* Info.plist */,
+				6CB0390F1EA255D200F9724B /* RNHealthKitBridge.m */,
+				6CB039111EA255F200F9724B /* RNHealthKit.swift */,
+			);
+			path = RNHealthKit;
+			sourceTree = "<group>";
+		};
+		6CB039021EA255AF00F9724B /* RNHealthKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB039031EA255AF00F9724B /* RNHealthKitTests.swift */,
+				6CB039051EA255AF00F9724B /* Info.plist */,
+			);
+			path = RNHealthKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CB038F21EA255AF00F9724B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB039061EA255AF00F9724B /* RNHealthKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CB038F41EA255AF00F9724B /* RNHealthKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB039091EA255AF00F9724B /* Build configuration list for PBXNativeTarget "RNHealthKit" */;
+			buildPhases = (
+				6CB038F01EA255AF00F9724B /* Sources */,
+				6CB038F11EA255AF00F9724B /* Frameworks */,
+				6CB038F21EA255AF00F9724B /* Headers */,
+				6CB038F31EA255AF00F9724B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNHealthKit;
+			productName = RNHealthKit;
+			productReference = 6CB038F51EA255AF00F9724B /* RNHealthKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CB038FD1EA255AF00F9724B /* RNHealthKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB0390C1EA255AF00F9724B /* Build configuration list for PBXNativeTarget "RNHealthKitTests" */;
+			buildPhases = (
+				6CB038FA1EA255AF00F9724B /* Sources */,
+				6CB038FB1EA255AF00F9724B /* Frameworks */,
+				6CB038FC1EA255AF00F9724B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB039011EA255AF00F9724B /* PBXTargetDependency */,
+			);
+			name = RNHealthKitTests;
+			productName = RNHealthKitTests;
+			productReference = 6CB038FE1EA255AF00F9724B /* RNHealthKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB038EC1EA255AF00F9724B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rafal Kostrzewski";
+				TargetAttributes = {
+					6CB038F41EA255AF00F9724B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = SBF4UV2MGD;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					6CB038FD1EA255AF00F9724B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = SBF4UV2MGD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6CB038EF1EA255AF00F9724B /* Build configuration list for PBXProject "RNHealthKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CB038EB1EA255AF00F9724B;
+			productRefGroup = 6CB038F61EA255AF00F9724B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB038F41EA255AF00F9724B /* RNHealthKit */,
+				6CB038FD1EA255AF00F9724B /* RNHealthKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB038F31EA255AF00F9724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB038FC1EA255AF00F9724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB038F01EA255AF00F9724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB039121EA255F200F9724B /* RNHealthKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB038FA1EA255AF00F9724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB039041EA255AF00F9724B /* RNHealthKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CB039011EA255AF00F9724B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB038F41EA255AF00F9724B /* RNHealthKit */;
+			targetProxy = 6CB039001EA255AF00F9724B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CB039071EA255AF00F9724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CB039081EA255AF00F9724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CB0390A1EA255AF00F9724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SBF4UV2MGD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RNHealthKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkostrzewski.RNHealthKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/React";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../react-native/React/** $(SRCROOT)/../react-native/React/**";
+			};
+			name = Debug;
+		};
+		6CB0390B1EA255AF00F9724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SBF4UV2MGD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RNHealthKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkostrzewski.RNHealthKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/React";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../react-native/React/** $(SRCROOT)/../react-native/React/**";
+			};
+			name = Release;
+		};
+		6CB0390D1EA255AF00F9724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SBF4UV2MGD;
+				INFOPLIST_FILE = RNHealthKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkostrzewski.RNHealthKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6CB0390E1EA255AF00F9724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SBF4UV2MGD;
+				INFOPLIST_FILE = RNHealthKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkostrzewski.RNHealthKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB038EF1EA255AF00F9724B /* Build configuration list for PBXProject "RNHealthKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB039071EA255AF00F9724B /* Debug */,
+				6CB039081EA255AF00F9724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB039091EA255AF00F9724B /* Build configuration list for PBXNativeTarget "RNHealthKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB0390A1EA255AF00F9724B /* Debug */,
+				6CB0390B1EA255AF00F9724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB0390C1EA255AF00F9724B /* Build configuration list for PBXNativeTarget "RNHealthKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB0390D1EA255AF00F9724B /* Debug */,
+				6CB0390E1EA255AF00F9724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB038EC1EA255AF00F9724B /* Project object */;
+}
